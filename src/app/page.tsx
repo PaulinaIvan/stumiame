@@ -30,7 +30,7 @@ export default function Home() {
         onClick={handleClick}
         aria-label="Start rolling animation"
       >
-        PENIS
+        <img src="/logo.png" alt="Logo" className="round-image" />
       </button>
     </main>
   );

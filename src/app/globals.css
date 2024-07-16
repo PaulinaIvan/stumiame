@@ -52,13 +52,18 @@ main {
   left: 50px;
   width: 100px;
   height: 100px;
-  background-color: #6d3e00;
-  border: none;
+  background-color: #000000;
+  border: 3px solid red;
   border-radius: 50%;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: transform 2s ease-in-out;
+}
+
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 @keyframes roll-up-hill {
