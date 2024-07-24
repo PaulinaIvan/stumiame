@@ -41,6 +41,32 @@ main {
   height: 100vh; /* Ensure main takes full viewport height */
 }
 
+.login-button {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.welcome-message {
+  --initial-left: 250px;
+  position: absolute;
+  top: 20%;
+  left: var(--initial-left);
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #931313;
+}
+
 .rolling-ball-button {
   --initial-bottom: 50px;
   --initial-left: 50px;
