@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function DashboardPage() {
   return (
-    <div>Dashboard page</div>
+    <div>Your music taste makes me sick</div>
   )
 }

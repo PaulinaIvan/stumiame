@@ -1,16 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import './globals.css'
+import { redirect } from "next/navigation";
+import { auth } from "@clerk/nextjs/server";
 
 export default function Home() {
   return (
-    <main className="">
+    <div className="mainContainer">
       <Link href="/sign-in">
-        <button className="authButton">Sign In</button>
+        <div className="circleContainer">
+          <button className="authButton"></button>
+        </div>
+        <button className="buttonText">Sign In</button>
       </Link>
       <Link href="/sign-up">
-        <button className="authButton">Sign Up</button>
+        <div className="circleContainer">
+          <button className="authButton"></button>
+        </div>
+        <button className="buttonText">Sign Up</button>
       </Link>
-    </main>
+    </div>
   );
 }
